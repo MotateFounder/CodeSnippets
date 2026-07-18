@@ -415,18 +415,6 @@ The `.gitignore` excludes:
 
 Lightweight source files such as RepoLens service wrappers and README files remain trackable.
 
-## Removed Features
-
-The following modules/features are no longer part of the active app:
-
-- Kanban board
-- Task Manager
-- Teleprompter
-- Kokoro text-to-speech
-- Audio output generation
-
-Legacy references in old session/task data should either be ignored or treated as plain text/file output.
-
 ## Notes
 
 - CodeSnippets is language agnostic.
