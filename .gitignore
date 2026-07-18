@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local application state
+settings.json
+log.txt
+users/
+src/services/notebook/data/
+src/services/promptManager/data/
+src/services/activityReport/data/
+src/services/taskManager/data/
+src/services/telePrompter/flows/
+
+# RepoLens generated indexes and external binaries/libraries
+src/services/repoLens/databases/
+src/services/repoLens/repolens*
+src/services/repoLens/*.dll
+src/services/repoLens/*.so
+src/services/repoLens/*.dylib
+src/services/repoLens/*.pdb
+!src/services/repoLens/service.py
+!src/services/repoLens/RepoLens.README.md
+
+# Local Llama.cpp distribution and model files
+src/assets/LlamaCPP/*
+!src/assets/LlamaCPP/.gitkeep
+src/assets/llmmodels/*
+!src/assets/llmmodels/.gitkeep
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+
+# Installer/download scratch files
+downloads/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
